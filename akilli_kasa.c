@@ -3,8 +3,6 @@
 
 int main() {
 
-    int devam = 1;
-
         float urunTutari;
         float odenenPara;
         float paraUstu;
