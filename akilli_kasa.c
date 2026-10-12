@@ -5,8 +5,6 @@ int main() {
 
     int devam = 1;
 
-    while (devam == 1) {
-
         float urunTutari;
         float odenenPara;
         float paraUstu;
@@ -63,15 +61,6 @@ int main() {
                 }
             }
         }
-
-        printf("\nToplam kupur sayisi: %d\n", toplamKupur);
-
-        printf("\nYeni bir islem yapmak ister misiniz?\n");
-        printf("1 - Evet\n");
-        printf("0 - Hayir\n");
-        printf("Seciminiz: ");
-        scanf("%d", &devam);
-    }
 
     printf("\nProgram sonlandirildi.\n");
 
